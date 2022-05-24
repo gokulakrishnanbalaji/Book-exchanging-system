@@ -12,7 +12,9 @@ DB_NAME="database.db"
 def create_app():
     app=Flask(__name__)
     app.config['SECRET_KEY']='kjbncbvoiwhjapoj jng'
-    app.config['SQLALCHEMY_DATABASE_URI'] = f'sqlite:///{DB_NAME}'
+
+    #app.config['SQLALCHEMY_DATABASE_URI'] = f'sqlite:///{DB_NAME}'
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://cfmbjmrkxwwikh:cc5c9658779a94f180dd471c39d459b79f44f09c1852c48384bbff6988fe615c@ec2-54-204-56-171.compute-1.amazonaws.com:5432/dcs1i9m790t2jo'
     db.init_app(app)
 
     from .views import views
