@@ -7,7 +7,7 @@
  can create connections between the community members and exchange information about the books. The community members should be able to list 
  the books they are willing to exchange with others in the forum while the database stores the information about the books listed by every 
  user. Members would be able to search for the required books and based on availability, contact information would be provided. Private discussion 
- can be done between the members, and exchanges can be made.
+ can be done between the members of the community, and exchanges can be made.
 
 #### Check out the app here <a href="https://book-exchanging-system.herokuapp.com/login?next=%2F">Book-exchanging-system!!</a>
 
